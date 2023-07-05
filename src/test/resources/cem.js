@@ -1,6 +1,6 @@
 define({
   "html": {
-    AD_FAILED_LOGINS: 'Active Directory failed logon tries',
+    AD_FAILED_LOGINS: 'Active Directory\' failed logon tries',
     AS_EMAIL: 'ActiveSync user email',
     BES_EMAIL: 'BES user email',
     COMPANY: 'Company',
@@ -35,7 +35,7 @@ define({
     ASM_PERSON_MANAGED_APPLE_ID: "ASM managed Apple ID",
     ASM_PERSON_PASSCODE_TYPE: "ASM passcode type",
     ASM_PERSON_SOURCE: "ASM data source",
-    ASM_PERSON_SOURCE_SYSTEM_ID: "ASM source system ID",
+    ASM_PERSON_SOURCE_SYSTEM_ID: "ASM source\" system ID",
     ASM_PERSON_GRADE: "ASM student grade",
     ASM_PERSON_STATUS: "ASM person status",
     ASM_PERSON_TITLE: "ASM person title",

@@ -16,6 +16,7 @@ import net.sf.okapi.common.filters.SubFilter;
 import net.sf.okapi.common.resource.ITextUnit;
 import net.sf.okapi.common.resource.RawDocument;
 import net.sf.okapi.common.skeleton.GenericSkeleton;
+import net.sf.okapi.common.skeleton.ISkeletonWriter;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -243,7 +244,10 @@ public class JavaScriptFilter extends AbstractFilter implements JavaScriptHandle
     public void setParameters(IParameters params) {
         this.params = (Parameters) params;
     }
-
+    @Override
+    public ISkeletonWriter createSkeletonWriter () {
+        return new JavaScriptSkeletonWriter();
+    }
     @Override
     public EncoderManager getEncoderManager() {
         if (encoderManager == null) {
